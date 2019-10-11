@@ -3,11 +3,11 @@
 }
 body, html {
   height: 100%;
+  margin: auto;
 }
 
 
 .hero-image {
-
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/blank-composition-data-373076.jpg");
   height: 50%;
   background-position: center;
@@ -24,6 +24,21 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
 }
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.hero-image1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../css/image/Untitled-2.jpg);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.card-img-top1{
+  height: 300px;
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap";

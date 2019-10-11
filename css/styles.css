@@ -1,4 +1,4 @@
-*{box-sizing:border-box}body,html{height:100%}.hero-image{background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(image/blank-composition-data-373076.jpg);height:50%;background-position:50%;background-repeat:no-repeat;background-size:cover;position:relative}.hero-text{text-align:center;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff}
+*{box-sizing:border-box}body,html{height:100%;margin:auto}.hero-image{background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(image/blank-composition-data-373076.jpg);height:50%;background-position:50%;background-repeat:no-repeat;background-size:cover;position:relative}.hero-text{text-align:center;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff}.center{display:block;margin-left:auto;margin-right:auto;width:50%}.hero-image1{background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../css/image/Untitled-2.jpg);height:50%;background-position:50%;background-repeat:no-repeat;position:relative}.card-img-top1{height:300px}
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
