@@ -8,6 +8,15 @@
     <meta name="copyright" content="Information om copyright">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="YouTubePopUp.jquery.js"></script>
+    <script type="text/javascript">
+        jQuery(function(){
+            jQuery("a.bla-1").YouTubePopUp();
+            jQuery("a.bla-2").YouTubePopUp( { autoplay: 0 } );
+        });
+    </script>
+
 </head>
 <body>
 <div class="hero-image">
@@ -29,6 +38,7 @@
 <br>
 <div class="jumbotron text-center">
     <h1 class="display-4">Hvad kan jeg?</h1>
+    <a class="bla-1" href="css/image/Marinus-intro.mp4">Link til intro video</a>
     <p class="lead">Jeg har en del færdigheder efter at have gået på multimediedesign i 1 år.</p>
     <hr class="my-4">
     <img class="img-fluid" src="css/image/Untitled-2.jpg">
